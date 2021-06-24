@@ -3,7 +3,6 @@
 M_IN_K = 1000.0
 FUTURE_P = 5
 import numpy as np
-from comyco_pitree import predict
 from statsmodels.stats.weightstats import DescrStatsW
 from Network import ActorNetwork
 from torch.distributions import Categorical
